@@ -1,6 +1,6 @@
 .header {
   height: 100vh;
-  background-image: url("../../img/header.png");
+  background-image: url("/src/img/header.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,7 +10,7 @@
 .header-logo {
   position: absolute;
   bottom: 20px;
-  left: 20px;
+  left: 77px;
   width: 50%;
 }
 
@@ -19,14 +19,17 @@
   bottom: 20px;
   right: 20px;
   background-color: #e63946;
-  color: white;
   padding: 10px 20px;
-  border: none;
   border-radius: 5px;
-  font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
   text-decoration: none;
-  font-family: Arial, sans-serif;
+  display: flex;
+  width: 290px;
+  height: 87px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-family: Bokor;
+  font-size: 48px;
+  text-transform: uppercase;
 }

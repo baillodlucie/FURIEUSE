@@ -10,10 +10,10 @@
   font-weight: 400;
   line-height: normal;
   padding-top: 12px;
-  padding-left: 31px;
+  padding-left: 30px;
 }
 
-h2 {
+.h2-start {
   color: var(--white, #fff);
   text-align: center;
   font-family: Bokor;
@@ -22,9 +22,6 @@ h2 {
   font-weight: 400;
   line-height: 120%;
   text-transform: uppercase;
-  width: 1138px;
-  height: 381px;
-  flex-shrink: 0;
   text-align: center;
   display: flex;
   padding-top: 170px;
@@ -34,6 +31,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 100px;
 }
 
 .provisoire {
@@ -43,7 +41,7 @@ h2 {
   text-align: center;
 }
 
-.h2-2 {
+.h2-end {
   color: var(--rouge-rose, #e93f56);
   text-align: center;
   font-family: Bokor;
@@ -53,6 +51,41 @@ h2 {
   line-height: 120%;
   text-transform: uppercase;
   text-align: center;
-  flex-shrink: 0;
-  padding-bottom: 171px;
+  padding-bottom: 300px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Nécessaire pour que le contenu ne déborde pas */
+}
+
+.intro-section,
+.outro-section {
+  height: 100vh; /* Occupe toute la hauteur de la fenêtre */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  display: inline-flex; /* Alignement horizontal pour une rangée continue */
+  height: 100vh; /* Occupe toute la hauteur de la fenêtre pour rester cohérent avec .intro-section et .outre-section */
+}
+
+.horizontal-scroll {
+  height: 100vh; /* Fixe la hauteur à la hauteur de la fenêtre comme les autres */
+  overflow: hidden; /* Pas de défilement vertical à l'interiéur de cette class */
+}
+
+.box {
+  min-width: 300svw; /* Pour que la box soit large et qu'il y ai de la surface pour le défilement horizontal au scroll */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  border: 2px solid #333;
+  margin: 20px;
 }
