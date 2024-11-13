@@ -43,14 +43,14 @@ gsap.to(".buy-button", {
   },
 });
 
-gsap.to(".horizontal-scroll-container", {
-  xPercent: -200,
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".horizontal-scroll",
-    start: "top top",
-    end: "+=300%",
-    scrub: true,
-    pin: true,
-  },
-});
+// gsap.to(".horizontal-scroll-container", {
+//   xPercent: -200,
+//   ease: "none",
+//   scrollTrigger: {
+//     trigger: ".horizontal-scroll",
+//     start: "top top",
+//     end: "+=300%",
+//     scrub: true,
+//     pin: true,
+//   },
+// });
