@@ -4,32 +4,53 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.from(".box-1", {
-  left: "0",
+gsap.from(".section-green-box-1", {
+  left: "-10",
   opacity: 0,
   scrollTrigger: {
-    trigger: ".box-1",
+    trigger: ".section-green-box-1",
     start: "top bottom",
     scrub: true,
   },
 });
 
-gsap.from(".box-2", {
-  right: "0",
+gsap.from(".section-green-box-2", {
+  right: "-20",
   opacity: 0,
   scrollTrigger: {
-    trigger: ".box-2",
+    trigger: ".section-green-box-2",
     start: "top bottom",
     scrub: true,
   },
 });
 
-gsap.from(".box-3", {
+gsap.from(".section-green-box-3", {
   left: "0",
   opacity: 0,
   scrollTrigger: {
-    trigger: ".box-3",
+    trigger: ".section-green-box-1",
     start: "top bottom",
     scrub: true,
+  },
+});
+
+gsap.to(".buy-button", {
+  top: 20,
+  scrollTrigger: {
+    trigger: ".buy-button",
+    start: "top 50%",
+    scrub: true,
+  },
+});
+
+gsap.to(".horizontal-scroll-container", {
+  xPercent: -200,
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".horizontal-scroll",
+    start: "top top",
+    end: "+=300%",
+    scrub: true,
+    pin: true,
   },
 });

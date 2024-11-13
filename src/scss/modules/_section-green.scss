@@ -19,7 +19,7 @@
   flex-shrink: 0;
 }
 
-.box-container {
+.section-green-box-container {
   position: relative;
   display: flex;
   align-items: center;
@@ -28,12 +28,12 @@
   width: 100vw;
 }
 
-.box {
+.section-green-box {
   text-align: center;
   border: 2px solid #333;
 }
 
-.box-1 {
+.section-green-box-1 {
   background-color: pink;
   position: absolute;
   left: 30%;
@@ -44,7 +44,7 @@
   margin-top: 30px;
 }
 
-.box-2 {
+.section-green-box-2 {
   background-color: #f7799b;
   position: absolute;
   right: 19%;
@@ -53,7 +53,7 @@
   height: 927px;
 }
 
-.box-3 {
+.section-green-box-3 {
   position: absolute;
   left: 29%;
   top: 59%;
