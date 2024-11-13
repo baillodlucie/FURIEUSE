@@ -15,12 +15,11 @@
 }
 
 .buy-button {
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   right: 20px;
   background-color: #e63946;
   padding: 10px 20px;
-  border-radius: 5px;
   text-decoration: none;
   display: flex;
   width: 290px;
@@ -32,4 +31,9 @@
   font-family: Bokor;
   font-size: 48px;
   text-transform: uppercase;
+}
+
+.buy-button:hover {
+  color: #e63946;
+  background-color: #fff;
 }

@@ -1,61 +1,24 @@
 .footer {
   background: #000;
+  padding-top: 100px;
+  padding-bottom: 200px;
   display: flex;
 }
 
-h3 {
-  color: var(--white, #fff);
-  font-family: Bokor;
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.BD-couverture {
-  padding-top: 170px;
-  padding-left: 150px;
-}
-
-.footer-text {
-  padding-right: 120px;
-  padding-left: 120px;
-  padding-top: 200px;
-}
-
-.footer-p {
+.confidentiality,
+.footer-right {
   color: var(--white, #fff);
   font-family: "Bricolage Grotesque";
   font-size: 25px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
-.reference {
-  color: var(--white, #fff);
-  font-family: "Bricolage Grotesque";
-  font-size: 18px;
-  font-weight: 300;
-  padding-top: 42px;
-  padding-bottom: 42px;
+.logo-dargaud {
+  width: 203px;
+  height: 23px;
 }
 
-.buy-button-footer {
-  bottom: 20px;
-  right: 20px;
-  background-color: #e63946;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
+.socials {
   display: flex;
-  width: 290px;
-  height: 87px;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  text-align: center;
-  font-family: Bokor;
-  font-size: 48px;
-  text-transform: uppercase;
+  justify-content: space-around;
 }

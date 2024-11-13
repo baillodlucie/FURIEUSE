@@ -18,3 +18,46 @@
   align-items: center;
   flex-shrink: 0;
 }
+
+.box-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2821px;
+  width: 100vw;
+}
+
+.box {
+  text-align: center;
+  border: 2px solid #333;
+}
+
+.box-1 {
+  background-color: pink;
+  position: absolute;
+  left: 30%;
+  top: 0;
+  width: 752px;
+  height: 826px;
+  flex-shrink: 0;
+  margin-top: 30px;
+}
+
+.box-2 {
+  background-color: #f7799b;
+  position: absolute;
+  right: 19%;
+  top: 28%;
+  width: 450px;
+  height: 927px;
+}
+
+.box-3 {
+  position: absolute;
+  left: 29%;
+  top: 59%;
+  background-color: #f5d8f5;
+  width: 768px;
+  height: 565px;
+}
