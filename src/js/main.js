@@ -27,8 +27,8 @@ gsap
     },
   })
   .from(".section-green-box-1", {
-    left: "-10",
-    opacity: 0,
+    left: "-20",
+    opacity: 0.5,
     scrollTrigger: {
       trigger: ".section-green-box-1",
       start: "top bottom",
@@ -37,7 +37,7 @@ gsap
   })
   .from(".section-green-box-2", {
     right: "-20",
-    opacity: 0,
+    opacity: 0.5,
     scrollTrigger: {
       trigger: ".section-green-box-2",
       start: "top bottom",
@@ -46,10 +46,15 @@ gsap
   })
   .from(".section-green-box-3", {
     left: "0",
-    opacity: 0,
+    opacity: 0.5,
     scrollTrigger: {
       trigger: ".section-green-box-3",
       start: "top bottom",
       scrub: true,
     },
   });
+
+setTimeout(function () {
+  const buttons = document.querySelectorAll(".buy-button");
+  buttons.forEach((button) => (button.style.display = "none"));
+}, 2000);
