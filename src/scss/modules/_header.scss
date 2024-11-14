@@ -13,27 +13,3 @@
   left: 77px;
   width: 50%;
 }
-
-.buy-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #e63946;
-  padding: 10px 20px;
-  text-decoration: none;
-  display: flex;
-  width: 290px;
-  height: 87px;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  text-align: center;
-  font-family: Bokor;
-  font-size: 48px;
-  text-transform: uppercase;
-}
-
-.buy-button:hover {
-  color: #e63946;
-  background-color: #fff;
-}
