@@ -1,12 +1,12 @@
 .horizontal-scroll-container {
   position: relative;
   height: 100vh;
-  width: 150vw;
+  width: 250vw;
 }
 
 .horizontal-scroll {
-  height: 100vh; /* Fixe la hauteur à la hauteur de la fenêtre comme les autres */
-  overflow: hidden; /* Pas de défilement vertical à l'interiéur de cette class */
+  height: 100vh;
+  overflow: hidden;
 }
 
 .horizontal-scroll-box {
@@ -20,7 +20,7 @@
 
 #img-carousel-1 {
   top: 0;
-  left: -160;
+  left: -100;
 }
 
 #img-carousel-2 {
@@ -30,10 +30,25 @@
 
 #img-carousel-3 {
   top: 0px;
-  right: -250px;
+  left: 830px;
 }
 
 #img-carousel-4 {
-  top: 400px;
-  right: -650px;
+  top: 300px;
+  left: 1280px;
+}
+
+#img-carousel-5 {
+  top: 20px;
+  left: 1700px;
+}
+
+#img-carousel-6 {
+  top: -60px;
+  left: 2150px;
+}
+
+#img-carousel-7 {
+  top: 30px;
+  left: 2630px;
 }
