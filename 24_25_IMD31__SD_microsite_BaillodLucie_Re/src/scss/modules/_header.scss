@@ -1,0 +1,15 @@
+.header {
+  height: 100vh;
+  background-image: url("/src/img/header.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.header-logo {
+  position: absolute;
+  bottom: 20px;
+  left: 77px;
+  width: 50%;
+}

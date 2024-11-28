@@ -1,0 +1,42 @@
+.section-bd {
+  background: #000;
+  display: flex;
+}
+
+h3 {
+  color: var(--white, #fff);
+  font-family: Bokor;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bd-couverture {
+  padding-top: 170px;
+  padding-left: 150px;
+}
+
+.section-bd-text {
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-top: 200px;
+}
+
+.section-bd-p {
+  color: var(--white, #fff);
+  font-family: "Bricolage Grotesque";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.reference {
+  color: var(--white, #fff);
+  font-family: "Bricolage Grotesque";
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
