@@ -4,6 +4,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+// faire que le bouton j'achete monte au fur et à mesure du scroll dans le header
+
 gsap.to(".buy-button", {
   top: 20,
   scrollTrigger: {
@@ -13,6 +15,8 @@ gsap.to(".buy-button", {
   },
 });
 
+// création d'une timeline comportant mes animations pour le bouton acheter, le carousel scroll horizontal et les images apparaissant dans la section verte, afin qu'elles s'animent au fur et à mesure de l'avancée de l'utilisateur dans le site
+
 gsap
   .timeline()
   .to(".horizontal-scroll-container", {
@@ -21,7 +25,6 @@ gsap
     scrollTrigger: {
       trigger: ".horizontal-scroll",
       start: "top top",
-      // end: "+=300%",
       scrub: true,
       pin: true,
     },
@@ -54,6 +57,7 @@ gsap
     },
   });
 
+// rendre le bouton "acheter" invisible à un certain moment dans le site
 setTimeout(function () {
   const buttons = document.querySelectorAll(".buy-button");
   buttons.forEach((button) => (button.style.display = "none"));
