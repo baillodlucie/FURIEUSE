@@ -1,0 +1,55 @@
+.footer {
+  background: #000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: var(--white, #fff);
+  font-family: "Bricolage Grotesque";
+  font-size: 25px;
+  font-weight: 400;
+  padding: 150px;
+}
+
+.footer-left {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.footer-left {
+  gap: 15px;
+}
+
+.logo-dargaud {
+  width: 203px;
+  height: 23px;
+}
+
+.confidentiality {
+  padding-top: 20px;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.socials img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  padding-top: 90px;
+}
+
+.footer a {
+  text-decoration: none;
+}
